@@ -52,7 +52,7 @@ else
         ./configure
         make
         cd ..
-        modprobe -r pn533_usb pn533
+        sudo modprobe -r pn533_usb pn533
 
         #if [ grep "modprobe -r pn533_usb pn533" /etc/modprobe.d/blacklist-libnfc.conf ]
         #	then
